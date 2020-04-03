@@ -1,12 +1,3 @@
-################################################
-# Compile with:
-#     sudo docker build -t microsoft/playwright:bionic -f Dockerfile.bionic .
-#
-# Run with:
-#     sudo docker run -d -p --rm --name playwright microsoft/playwright:bionic
-#
-#################################################
-
 FROM ubuntu:bionic
 
 # 1. Install node12
